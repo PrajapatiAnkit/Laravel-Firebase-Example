@@ -1,0 +1,12 @@
+
+.empty-field{
+    color: red;
+    font-size: 12px;
+    padding: 2px;
+    display: none;
+}
+
+.alert-danger2{
+    background-color: #E44D3A;
+    color: white;
+}
