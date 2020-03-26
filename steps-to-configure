@@ -1,0 +1,22 @@
+
+========================================================
+            Firebase Integration in Laravel
+========================================================
+
+1. Create project at https://console.firebase.google.com/
+2. After creating the project you will be redirect to dasboard page.
+3. In the sidebar click on the database tab.
+4. Now you will see which type of database you want to create like storage, real time database.
+5. Just select real time
+6. Now you need to get the API keys and other details
+7. Click the gear icon right to project setting.
+8. Click the project setting
+9. Click the service account tab
+10.Just scroll to botton you will get generate new private key button, click on that, a json configuration file will be downloaded.
+11. Place that json file to the controller folder so that you can easily access.
+12. Now coding part bigins
+    12.1 Run the command : composer require kreait/firebase-php
+    12.2 Check the code here : https://github.com/PrajapatiAnkit/Laravel-Firebase-Example
+
+
+

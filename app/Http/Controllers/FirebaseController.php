@@ -23,7 +23,8 @@ class FirebaseController extends Controller
             ->getReference('blog/posts')
             ->push([
                 'title' =>  'Laravel 6',
-                'body'  =>  'This is really a cool database that is managed in real time.'
+                'body'  =>  'This is really a cool database that is managed in real time.',
+                'workType' => 'Work From Home',
 
             ]);
 
